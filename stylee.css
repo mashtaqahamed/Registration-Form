@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.main{
+    width: 400px;   /* this css to set dimensions , style of main div*/
+    margin: 50px  auto  0px auto;  /*Top left Right bottom*/
+
+}
+h3{
+    text-align:center;   /* this css to give all kind of style to head tag*/
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+div.register{           /*this css used to give style for the register div/ bbox like dimensions , color font size of box , from register here to submit */
+    background-color: rgba(19, 19, 211, 0.404);
+    width: 100%;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 10px
+    rgba(0,0,0,0.2);
+    color : #fff;
+}
+
+form#register{ /*this margin is given to  names and all contens (first/middle/surname till submit)*/
+    margin: 40px;
+}
+
+label{ /*this css used to give size/ style / type of fonts for first/middle/surname till phonenumber*/
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style:normal;
+}
+input#name{ /* this css is used for give dimensions to font box like(Enter your name , Enter your mail id till phone number no changes is Age tab) */
+    width: 300px;
+    font-family: sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 100;
+    padding: 5px;
+    background-color: #fff;
+
+}
+
+input#Preview{
+    width: 125px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(17, 47, 66, 0.699);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(85, 61, 61, 0.39);
+}
+
+input#Submit{
+    width: 125px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(17, 47, 66, 0.699);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(85, 61, 61, 0.39);
+}
+label,span,h3{
+    text-shadow: 1px 1px 5px
+    rgba (0,0,0,10);
+}
